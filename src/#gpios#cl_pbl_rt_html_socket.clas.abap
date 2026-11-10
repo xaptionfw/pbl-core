@@ -277,7 +277,7 @@ CLASS /GPIOS/CL_PBL_RT_HTML_SOCKET IMPLEMENTATION.
 
   METHOD on_sapevent.
 
-    DATA: lt_rt_data  TYPE /gpios/cl_pbl_realtime=>ty_t_rt_data,
+    DATA: lt_rt_data  TYPE /gpios/if_pbl_realtime=>ty_t_rt_data,
           lo_realtime LIKE LINE OF lt_rt_data.
 
     TRY.

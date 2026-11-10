@@ -8,10 +8,12 @@ interface /GPIOS/IF_PBL_REALTIME
   type-pools ABAP .
   data GV_REGISTERED type ABAP_BOOL read-only .
 
-  class /GPIOS/CL_PBL_REALTIME definition load .
+  types:
+    ty_t_rt_data TYPE STANDARD TABLE OF REF TO /gpios/cl_pbl_rt_data WITH NON-UNIQUE DEFAULT KEY .
+
   events RECEIVED
     exporting
-      value(ET_RT_DATA) type /GPIOS/CL_PBL_REALTIME=>TY_T_RT_DATA .
+      value(ET_RT_DATA) type TY_T_RT_DATA .
 
   methods SEND
     importing

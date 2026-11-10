@@ -7,7 +7,7 @@ public section.
   interfaces /GPIOS/IF_PBL_REALTIME .
 
   types:
-    ty_t_rt_data TYPE STANDARD TABLE OF REF TO /gpios/cl_pbl_rt_data WITH NON-UNIQUE DEFAULT KEY .
+    ty_t_rt_data TYPE /gpios/if_pbl_realtime=>ty_t_rt_data .
 
   class-data GV_BINARY_MESSAGE type XSTRING .
   class-data GT_RT_DATA type TY_T_RT_DATA read-only .
