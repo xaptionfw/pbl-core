@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/GPIOS/PBL_ACTION_TYPE</DOMNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000020</LENG>
+    <OUTPUTLEN>000020</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>PBL: Data Type</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>SET_COLOR</DOMVALUE_L>
+     <DDTEXT>LED Farben setzen</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>TOG_C</DOMVALUE_L>
+     <DDTEXT>LED Farben ein/ausschalten</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>TOG_C_ALL</DOMVALUE_L>
+     <DDTEXT>Alle LED Farben ein/ausschalten</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>START_BOM</DOMVALUE_L>
+     <DDTEXT>Stückliste starten</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>STOP_BOM</DOMVALUE_L>
+     <DDTEXT>Stückliste stoppen</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>TOG_BOMI_I</DOMVALUE_L>
+     <DDTEXT>Stücklistenposition ein/ausschalten</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>GET_RUN_BO</DOMVALUE_L>
+     <DDTEXT>Liefert die aktuell gestartete Stückliste</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>PING</DOMVALUE_L>
+     <DDTEXT>Führe einen Ping an den Dienst aus</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+    </item>
+   </DD01_TEXTS>
+   <DD07_TEXTS>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>SET_COLOR</DOMVALUE_L>
+     <DDTEXT>Set LED colors</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TOG_C</DOMVALUE_L>
+     <DDTEXT>Switch LED colors on/off</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TOG_C_ALL</DOMVALUE_L>
+     <DDTEXT>Switch all LED colors on/off</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>START_BOM</DOMVALUE_L>
+     <DDTEXT>Start BOM</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>STOP_BOM</DOMVALUE_L>
+     <DDTEXT>Stop BOM</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TOG_BOMI_I</DOMVALUE_L>
+     <DDTEXT>Toggle Bom Item on/off</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>GET_RUN_BO</DOMVALUE_L>
+     <DDTEXT>Get current running BOM</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PING</DOMVALUE_L>
+     <DDTEXT>Process a ping to the service</DDTEXT>
+    </item>
+   </DD07_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

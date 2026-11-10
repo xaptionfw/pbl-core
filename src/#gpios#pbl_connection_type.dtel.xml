@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GPIOS/PBL_CONNECTION_TYPE</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/GPIOS/PBL_CONNECTION_TYPE</DOMNAME>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <DDTEXT>PbL: Verbindungsart einer I/O-Einheit (BUS, WIFI, BT, ...)</DDTEXT>
+    <REPTEXT>Verbindung</REPTEXT>
+    <SCRTEXT_S>Verbindung</SCRTEXT_S>
+    <SCRTEXT_M>Verbindungart</SCRTEXT_M>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>PbL: Connection Type of an I/O Unit (BUS, WIFI, BT, ...)</DDTEXT>
+     <REPTEXT>Connection</REPTEXT>
+     <SCRTEXT_S>Connection</SCRTEXT_S>
+     <SCRTEXT_M>Connection Type</SCRTEXT_M>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

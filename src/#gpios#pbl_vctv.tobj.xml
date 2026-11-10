@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TOBJ" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <OBJH>
+    <OBJECTNAME>/GPIOS/PBL_VCT</OBJECTNAME>
+    <OBJECTTYPE>V</OBJECTTYPE>
+    <CLIDEP>X</CLIDEP>
+    <OBJCATEG>APPL</OBJCATEG>
+    <IMPORTABLE>3</IMPORTABLE>
+   </OBJH>
+   <OBJT>
+    <LANGUAGE>D</LANGUAGE>
+    <OBJECTNAME>/GPIOS/PBL_VCT</OBJECTNAME>
+    <OBJECTTYPE>V</OBJECTTYPE>
+    <DDTEXT>PbL: Steuergeräteverwaltung</DDTEXT>
+   </OBJT>
+   <OBJS>
+    <OBJS>
+     <OBJECTNAME>/GPIOS/PBL_VCT</OBJECTNAME>
+     <OBJECTTYPE>V</OBJECTTYPE>
+     <TABNAME>/GPIOS/PBL_CTL</TABNAME>
+     <DDIC>X</DDIC>
+     <PRIM_TABLE>X</PRIM_TABLE>
+    </OBJS>
+    <OBJS>
+     <OBJECTNAME>/GPIOS/PBL_VCT</OBJECTNAME>
+     <OBJECTTYPE>V</OBJECTTYPE>
+     <TABNAME>/GPIOS/PBL_CTT</TABNAME>
+     <DDIC>X</DDIC>
+    </OBJS>
+   </OBJS>
+   <TOBJ>
+    <TDDAT>
+     <TABNAME>/GPIOS/PBL_VCT</TABNAME>
+     <CCLASS>&amp;NC&amp;</CCLASS>
+    </TDDAT>
+    <TVDIR>
+     <TABNAME>/GPIOS/PBL_VCT</TABNAME>
+     <AREA>/GPIOS/PBL_MNT</AREA>
+     <TYPE>1</TYPE>
+     <LISTE>0007</LISTE>
+     <FLAG>X</FLAG>
+    </TVDIR>
+    <TVIMF>
+     <TVIMF>
+      <TABNAME>/GPIOS/PBL_VCT</TABNAME>
+      <EVENT>05</EVENT>
+      <FORMNAME>/GPIOS/FILL_CCCATEGORY</FORMNAME>
+     </TVIMF>
+     <TVIMF>
+      <TABNAME>/GPIOS/PBL_VCT</TABNAME>
+      <EVENT>19</EVENT>
+      <FORMNAME>/GPIOS/RESIZE_THIS_TABLE</FORMNAME>
+     </TVIMF>
+    </TVIMF>
+   </TOBJ>
+  </asx:values>
+ </asx:abap>
+</abapGit>

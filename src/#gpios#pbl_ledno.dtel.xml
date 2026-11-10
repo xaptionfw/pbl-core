@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GPIOS/PBL_LEDNO</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/GPIOS/PBL_LEDNO</DOMNAME>
+    <HEADLEN>04</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Nummer einer I/O-Einheit</DDTEXT>
+    <REPTEXT>Einh</REPTEXT>
+    <SCRTEXT_S>I/O-Einh.</SCRTEXT_S>
+    <SCRTEXT_M>I/O-Einheit</SCRTEXT_M>
+    <SCRTEXT_L>I/O-Einheit</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Number of an I/O unit</DDTEXT>
+     <REPTEXT>Unit</REPTEXT>
+     <SCRTEXT_S>I/O Unit</SCRTEXT_S>
+     <SCRTEXT_M>I/O Unit</SCRTEXT_M>
+     <SCRTEXT_L>Number of I/O Unit</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

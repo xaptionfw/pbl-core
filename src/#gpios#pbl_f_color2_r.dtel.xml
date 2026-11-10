@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GPIOS/PBL_F_COLOR2_R</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/GPIOS/PBL_BOOL</DOMNAME>
+    <HEADLEN>02</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Rotes Licht für Auffüllmenge 2</DDTEXT>
+    <REPTEXT>R2</REPTEXT>
+    <SCRTEXT_S>Rot für 2</SCRTEXT_S>
+    <SCRTEXT_M>Rot für 2</SCRTEXT_M>
+    <SCRTEXT_L>Rot für Füllmenge 2</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Red Light for Fillup Quantities of 2</DDTEXT>
+     <REPTEXT>R2</REPTEXT>
+     <SCRTEXT_S>Red for 2</SCRTEXT_S>
+     <SCRTEXT_M>Red for 2</SCRTEXT_M>
+     <SCRTEXT_L>Red for quantity 2</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/GPIOS/IF_PBL_BOM</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>PbL: Bom</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>BOM_ITEMS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Controller</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONTROLLER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Controller</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_BOM_ITEMS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Stücklistenkomponenten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Daten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GS_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: IO Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_SHOW_TERMINATOR_DEFAULT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PbL: Indikator ob Terminator angezeigt werden soll</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_SHOW_TERMINATOR_FALSE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PbL: Indikator ob Terminator angezeigt werden soll</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_SHOW_TERMINATOR_TRUE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PbL: Indikator ob Terminator angezeigt werden soll</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>START</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Starte eine Stückliste</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>STOP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Stoppe die Stückliste</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BOM_ITEMS</CMPNAME>
+     <SCONAME>/GPIOS/CX_PBL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BOM_ITEMS</CMPNAME>
+     <SCONAME>IV_COMM_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Communication Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BOM_ITEMS</CMPNAME>
+     <SCONAME>RT_BOM_ITEMS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Controller</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <SCONAME>/GPIOS/CX_PBL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <SCONAME>IV_COMM_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Communication Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <SCONAME>RS_DATA</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: IO Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START</CMPNAME>
+     <SCONAME>/GPIOS/CX_PBL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Core Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START</CMPNAME>
+     <SCONAME>IV_SHOW_TERMINATOR</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PbL: Indikator ob Terminator angezeigt werden soll</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>STOP</CMPNAME>
+     <SCONAME>/GPIOS/CX_PBL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Core Exception</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

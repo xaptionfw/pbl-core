@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GPIOS/PBL_APIUS</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/GPIOS/PBL_APIUS</DOMNAME>
+    <HEADLEN>22</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Benutzerkennung für API-Funktionen</DDTEXT>
+    <REPTEXT>API-Benutzerkennung</REPTEXT>
+    <SCRTEXT_S>API-User</SCRTEXT_S>
+    <SCRTEXT_M>API-Benutzer</SCRTEXT_M>
+    <SCRTEXT_L>API-Benutzerkennung</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>User name for API functions</DDTEXT>
+     <REPTEXT>API user name</REPTEXT>
+     <SCRTEXT_S>API user</SCRTEXT_S>
+     <SCRTEXT_M>API user</SCRTEXT_M>
+     <SCRTEXT_L>API user name</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GPIOS/PBL_LOCALE_SETTING</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <HEADLEN>15</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>PbL: Sprachumgebung</DDTEXT>
+    <REPTEXT>Sprachumgebung</REPTEXT>
+    <SCRTEXT_S>Sprachumg.</SCRTEXT_S>
+    <SCRTEXT_M>Sprachumgebung</SCRTEXT_M>
+    <SCRTEXT_L>Sprachumgebung</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000020</LENG>
+    <OUTPUTLEN>000020</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>PbL: Locale Settings</DDTEXT>
+     <REPTEXT>Locale Settings</REPTEXT>
+     <SCRTEXT_S>Locale</SCRTEXT_S>
+     <SCRTEXT_M>Locale</SCRTEXT_M>
+     <SCRTEXT_L>Locale Settings</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/GPIOS/CL_PBL_HTTP_HANDLER</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>PbL: Http Handler</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONVERT_CALLBACK_DATA</CMPNAME>
+     <SCONAME>IO_SERVER</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>HTTP Framework (iHTTP) HTTP Server</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONVERT_CALLBACK_DATA</CMPNAME>
+     <SCONAME>IV_CB_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Callback Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DESERIALIZE_CALLBACK_DATA</CMPNAME>
+     <SCONAME>IV_CB_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Callback Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CALLBACK_STRUCTURE_REF</CMPNAME>
+     <SCONAME>IV_CB_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Callback Type</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

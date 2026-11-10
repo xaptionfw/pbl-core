@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/GPIOS/IF_PBL_REALTIME</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>PbL: Realtime Framework</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_RT_TYPE_HTML_SOCKET</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PbL: Echtzeit Typ</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_RT_TYPE_TIMER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PbL: Echtzeit Typ</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_RT_TYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PbL: Echtzeit Typ</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>RECEIVE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Receive</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>RECEIVED</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Data Received</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REGISTER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Register RealTime</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SEND</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Send</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UNREGISTER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Unregister RealTime</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>RECEIVE</CMPNAME>
+     <SCONAME>CX_AMC_ERROR</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Error handling class for ABAP Messaging Channels (AMC)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REGISTER</CMPNAME>
+     <SCONAME>/GPIOS/CX_PBL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REGISTER</CMPNAME>
+     <SCONAME>IT_CONTROLLER</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Controller</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEND</CMPNAME>
+     <SCONAME>CX_AMC_ERROR</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Error handling class for ABAP Messaging Channels (AMC)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEND</CMPNAME>
+     <SCONAME>IO_CONTROLLER</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Controller</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEND</CMPNAME>
+     <SCONAME>IV_CB_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Callback Type</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

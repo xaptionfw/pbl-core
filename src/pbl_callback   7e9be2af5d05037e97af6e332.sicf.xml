@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SICF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <URL>/gpios/pbl_callback/</URL>
+   <ICFSERVICE>
+    <ICF_NAME>PBL_CALLBACK</ICF_NAME>
+    <ORIG_NAME>pbl_callback</ORIG_NAME>
+   </ICFSERVICE>
+   <ICFDOCU>
+    <ICF_NAME>PBL_CALLBACK</ICF_NAME>
+    <ICF_LANGU>D</ICF_LANGU>
+    <ICF_DOCU>GPIO Solutions PbL Callback Handler</ICF_DOCU>
+   </ICFDOCU>
+   <ICFHANDLER_TABLE>
+    <ICFHANDLER>
+     <ICF_NAME>PBL_CALLBACK</ICF_NAME>
+     <ICFORDER>01</ICFORDER>
+     <ICFTYP>A</ICFTYP>
+     <ICFHANDLER>/GPIOS/CL_PBL_HTTP_HANDLER</ICFHANDLER>
+    </ICFHANDLER>
+   </ICFHANDLER_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

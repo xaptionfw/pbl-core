@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GPIOS/PBL_CB_TYPE</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/GPIOS/PBL_CB_TYPE</DOMNAME>
+    <HEADLEN>15</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>PbL: Callback Typ</DDTEXT>
+    <REPTEXT>Callback Typ</REPTEXT>
+    <SCRTEXT_S>CBT</SCRTEXT_S>
+    <SCRTEXT_M>CB Typ</SCRTEXT_M>
+    <SCRTEXT_L>Callback Typ</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>PbL: Callback Type</DDTEXT>
+     <REPTEXT>Callback Type</REPTEXT>
+     <SCRTEXT_S>CBT</SCRTEXT_S>
+     <SCRTEXT_M>CB Type</SCRTEXT_M>
+     <SCRTEXT_L>Callback Type</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

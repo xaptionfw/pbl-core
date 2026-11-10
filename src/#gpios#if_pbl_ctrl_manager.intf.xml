@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/GPIOS/IF_PBL_CTRL_MANAGER</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>PBL: Controller Manager</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_MAINT_MODE_MAINTAIN</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PbL: Controller Verwaltung Bearbeitungsmodus</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_MAINT_MODE_RECEIVE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PbL: Controller Verwaltung Bearbeitungsmodus</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_MAINT_MODE_TRANSFER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PbL: Controller Verwaltung Bearbeitungsmodus</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_LOCAL_CONTROLLER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Controller</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_REMOTE_CONTROLLER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Controller</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_DATA_TYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Data Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>RECEIVE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Empfangen der Daten vom Controller</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_CONTROLLER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Setzen der Controller</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_DATA_TYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Setzen des Datatypes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TRANSFER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Übertragen der Daten an den Controller</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>PAI</CMPNAME>
+     <SCONAME>/GPIOS/CX_PBL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PAI</CMPNAME>
+     <SCONAME>IV_UCOMM</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ABAP-Systemfeld: Funktionscode, der PAI ausgelöst hat</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PBO</CMPNAME>
+     <SCONAME>/GPIOS/CX_PBL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PBO</CMPNAME>
+     <SCONAME>CX_SALV_EXISTING</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ALV: Allg. Fehlerklasse (wird bei Syntaxprüfung geprüft)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PBO</CMPNAME>
+     <SCONAME>CX_SALV_MSG</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ALV: Allg. Fehlerklasse  mit Meldung</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PBO</CMPNAME>
+     <SCONAME>CX_SALV_WRONG_CALL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ALV: Allg. Fehlerklasse (wird bei Syntaxprüfung geprüft)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PBO</CMPNAME>
+     <SCONAME>IV_DYNNR</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ABAP-Systemfeld: Aktuelle Dynpro-Nummer</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PBO</CMPNAME>
+     <SCONAME>IV_REPID</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ABAP-Systemfeld: Aufrufendes Programm</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>RECEIVE</CMPNAME>
+     <SCONAME>/GPIOS/CX_PBL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_CONTROLLER</CMPNAME>
+     <SCONAME>IO_LOCAL_CONTROLLER</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Controller</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_CONTROLLER</CMPNAME>
+     <SCONAME>IO_REMOTE_CONTROLLER</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Controller</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_DATA_TYPE</CMPNAME>
+     <SCONAME>IV_DATA_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Data Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TRANSFER</CMPNAME>
+     <SCONAME>/GPIOS/CX_PBL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Exception</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

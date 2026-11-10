@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/GPIOS/IF_PBL_IO_UNIT</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>PbL: IO Unit</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONTROLLER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Controller</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GS_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: IO Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_COLOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Setzen der Farbe</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TOGGLE_ALL_COLORS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Toggle aller Farben</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TOGGLE_COLOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Toggle the color</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_COLOR</CMPNAME>
+     <SCONAME>/GPIOS/CX_PBL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TOGGLE_ALL_COLORS</CMPNAME>
+     <SCONAME>/GPIOS/CX_PBL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TOGGLE_COLOR</CMPNAME>
+     <SCONAME>/GPIOS/CX_PBL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TOGGLE_COLOR</CMPNAME>
+     <SCONAME>IV_COLOR</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>&apos;R&apos;,&apos;G&apos;,&apos;B&apos;</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

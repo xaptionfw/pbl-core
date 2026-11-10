@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/GPIOS/CL_PBL_RT_HTML_SOCKET</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>PbL: Realtime Html Socket</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_DOCUMENT_ID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Objektname fuer SapWWWGateway</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_QUERY_DATA_SEPARATOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einstelliges Kennzeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_DOCKING_CONTAINER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Docking Control Container</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_HTML_VIEWER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>HTML Control proxy class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_URL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Uniform resource locator</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>DESERIALIZE_POSTDATA</CMPNAME>
+     <SCONAME>/GPIOS/CX_PBL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DESERIALIZE_POSTDATA</CMPNAME>
+     <SCONAME>RO_RT_DATA</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PbL: RealTime Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_URL_QUERY_STRING</CMPNAME>
+     <SCONAME>/GPIOS/CX_PBL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Exception</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

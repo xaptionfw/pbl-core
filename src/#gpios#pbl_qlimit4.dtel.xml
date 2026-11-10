@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GPIOS/PBL_QLIMIT4</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>INT4</DOMNAME>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>16</SCRLEN3>
+    <DDTEXT>PbL: Bestandsuntergrenze 4</DDTEXT>
+    <REPTEXT>Limit 4</REPTEXT>
+    <SCRTEXT_S>Limit 4</SCRTEXT_S>
+    <SCRTEXT_M>Limit 4</SCRTEXT_M>
+    <SCRTEXT_L>Bestands-Limit 4</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>PbL: Minimal Quantity 4</DDTEXT>
+     <REPTEXT>Limit 4</REPTEXT>
+     <SCRTEXT_S>Limit 4</SCRTEXT_S>
+     <SCRTEXT_M>Limit 4</SCRTEXT_M>
+     <SCRTEXT_L>Quantity limit 4</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

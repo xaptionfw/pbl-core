@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/GPIOS/CL_PBL_RT_TIMER</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>PbL: RealTIme Timer</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_AMC_APPLICATION_ID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anwendungs-Identifikator des ABAP Messaging Channel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_AMC_CHANNEL_CALLBACK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Identifikator des ABAP Messaging Channel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GO_TIMER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>SAP Timer Control</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

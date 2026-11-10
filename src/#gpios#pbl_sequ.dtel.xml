@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GPIOS/PBL_SEQU</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/GPIOS/PBL_BOOL</DOMNAME>
+    <HEADLEN>02</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Pick-by-Light: Kennzeichen für sequentielle Rückmeldung</DDTEXT>
+    <REPTEXT>SR</REPTEXT>
+    <SCRTEXT_S>Seq. Rm.</SCRTEXT_S>
+    <SCRTEXT_M>Seq. Rückm.</SCRTEXT_M>
+    <SCRTEXT_L>Sequenzielle Rückm.</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Features: Sequential confirmation</DDTEXT>
+     <REPTEXT>Sq</REPTEXT>
+     <SCRTEXT_S>Seq. conf.</SCRTEXT_S>
+     <SCRTEXT_M>Seq. conf.</SCRTEXT_M>
+     <SCRTEXT_L>Sequential conf.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

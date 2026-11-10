@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GPIOS/PBL_COLOR2_G</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/GPIOS/PBL_BOOL</DOMNAME>
+    <HEADLEN>02</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Grünes Licht für Menge 2</DDTEXT>
+    <REPTEXT>G2</REPTEXT>
+    <SCRTEXT_S>Grün für 2</SCRTEXT_S>
+    <SCRTEXT_M>Grün für 2</SCRTEXT_M>
+    <SCRTEXT_L>Grün für Menge 2</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Green Light for Quantities of 2</DDTEXT>
+     <REPTEXT>G2</REPTEXT>
+     <SCRTEXT_S>Green f. 2</SCRTEXT_S>
+     <SCRTEXT_M>Green for 2</SCRTEXT_M>
+     <SCRTEXT_L>Green for quantity 2</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

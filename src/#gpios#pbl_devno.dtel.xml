@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GPIOS/PBL_DEVNO</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/GPIOS/PBL_DEVNO</DOMNAME>
+    <HEADLEN>04</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Pick-by-Light Gerätenummer</DDTEXT>
+    <REPTEXT>Ger.</REPTEXT>
+    <SCRTEXT_S>Geräte-Nr.</SCRTEXT_S>
+    <SCRTEXT_M>Gerätenummer</SCRTEXT_M>
+    <SCRTEXT_L>Gerätenummer</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Pick-by-Light Device Number</DDTEXT>
+     <REPTEXT>Dev#</REPTEXT>
+     <SCRTEXT_S>Dev no.</SCRTEXT_S>
+     <SCRTEXT_M>Device Number</SCRTEXT_M>
+     <SCRTEXT_L>Device Number</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

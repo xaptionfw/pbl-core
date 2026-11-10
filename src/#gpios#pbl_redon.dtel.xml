@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GPIOS/PBL_REDON</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>BOOLEAN</DOMNAME>
+    <HEADLEN>06</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Rote LED ist an</DDTEXT>
+    <REPTEXT>Rot an</REPTEXT>
+    <SCRTEXT_S>Rot an</SCRTEXT_S>
+    <SCRTEXT_M>Rot an</SCRTEXT_M>
+    <SCRTEXT_L>Rot an</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Red Light is On</DDTEXT>
+     <REPTEXT>Red On</REPTEXT>
+     <SCRTEXT_S>Red On</SCRTEXT_S>
+     <SCRTEXT_M>Red On</SCRTEXT_M>
+     <SCRTEXT_L>Red On</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

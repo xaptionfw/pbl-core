@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/GPIOS/CL_PBL_REALTIME</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>PbL Realtime Framework</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_RT_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>/XAPTION/PBL_RT_TYPE</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DESERIALIZE</CMPNAME>
+     <SCONAME>EO_RT_DATA</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PbL: RealTime Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>IV_RT_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>/XAPTION/PBL_RT_TYPE</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PbL: Realtime Framework</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PUSH_RT_DATA_STACK</CMPNAME>
+     <SCONAME>IO_RT_DATA</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PbL: RealTime Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SERIALIZE</CMPNAME>
+     <SCONAME>IO_RT_DATA</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PbL: RealTime Data</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

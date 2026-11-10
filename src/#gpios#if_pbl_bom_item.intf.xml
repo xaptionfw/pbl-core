@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/GPIOS/IF_PBL_BOM_ITEM</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>PbL: Bom Item</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>BOM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PbL: Bom</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Daten zurück</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_IO_UNIT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die IO Unit zurück</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GS_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PbL: Bom Items</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IO_UNIT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: IO Unit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TOGGLE_BOM_ITM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Toggle Bom Itm</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <SCONAME>IV_COMM_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PbL: Kommunikationsart</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_IO_UNIT</CMPNAME>
+     <SCONAME>/GPIOS/CX_PBL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_IO_UNIT</CMPNAME>
+     <SCONAME>RO_IO_UNIT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: IO Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TOGGLE_BOM_ITM</CMPNAME>
+     <SCONAME>/GPIOS/CX_PBL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>PBL: Exception</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

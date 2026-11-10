@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GPIOS/PBL_FILLUP_QUAN</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>INT4</DOMNAME>
+    <HEADLEN>05</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>12</SCRLEN2>
+    <SCRLEN3>12</SCRLEN3>
+    <DDTEXT>PbL: Auffüllmenge</DDTEXT>
+    <REPTEXT>Auff.</REPTEXT>
+    <SCRTEXT_S>Auffüllm.</SCRTEXT_S>
+    <SCRTEXT_M>Auffüllmenge</SCRTEXT_M>
+    <SCRTEXT_L>Auffüllmenge</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>PbL: Fillup Quantity</DDTEXT>
+     <REPTEXT>Fill.</REPTEXT>
+     <SCRTEXT_S>Fillup.q.</SCRTEXT_S>
+     <SCRTEXT_M>Fillup.quan.</SCRTEXT_M>
+     <SCRTEXT_L>Fillup.quan.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

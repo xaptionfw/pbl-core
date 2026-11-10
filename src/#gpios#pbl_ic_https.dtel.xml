@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GPIOS/PBL_IC_HTTPS</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/GPIOS/PBL_BOOL</DOMNAME>
+    <HEADLEN>08</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <DDTEXT>PbL: HTTPS für I/O-Einheit Change</DDTEXT>
+    <REPTEXT>IC HTTPS</REPTEXT>
+    <SCRTEXT_S>IC HTTPS</SCRTEXT_S>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>PbL: HTTPS for I/O Unit Change</DDTEXT>
+     <REPTEXT>IC HTTPS</REPTEXT>
+     <SCRTEXT_S>IC HTTPS</SCRTEXT_S>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

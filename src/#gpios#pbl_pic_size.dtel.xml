@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GPIOS/PBL_PIC_SIZE</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>TEXT30</DOMNAME>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <DDTEXT>PbL: Größe des Bildes</DDTEXT>
+    <REPTEXT>Größe des Bildes</REPTEXT>
+    <SCRTEXT_S>Größe</SCRTEXT_S>
+    <SCRTEXT_M>Bildgröße</SCRTEXT_M>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>PbL: Picture Size</DDTEXT>
+     <REPTEXT>Picture Size</REPTEXT>
+     <SCRTEXT_S>Size</SCRTEXT_S>
+     <SCRTEXT_M>Picture Size</SCRTEXT_M>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
